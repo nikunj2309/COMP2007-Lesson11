@@ -78,7 +78,8 @@
                             </ul>
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="navbar-text">Howdy, <asp:LoginName ID="LoginName1" runat="server" /></li>
-                                <li><asp:LoginStatus ID="LoginStatus1" runat="server" /></li>
+                                <li><a href="/Logout.aspx">LogOut</a></li>
+                                
                                 
                             </ul>
                         </div>
